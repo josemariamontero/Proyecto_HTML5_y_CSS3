@@ -7,7 +7,6 @@
 <html>
 	<head>
 		<title>Sevilla Sin Humos</title>
-		<link rel=”shortcut icon” type=”image/png” href=”images/favicon.jpg”/>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -103,11 +102,12 @@
 							<section id="content">
 								<header>
 									<h2>Un poco de historia ...</h2>
-									<span class="byline">
+								</header>
+									<span class="byline"></span>
 									<p>El cigarrillo electrónico o también llamado vaporiazador o vaper, es un sistema electrónico inhalador diseñado para simular y sustitur el consumo de tabaco, pero también puede ser usado por personas que no fuman.
 									Éstos dispositivos utilizan una resistencia y una batería para calentar y de ello vaporizar una solución líquida llamada líquido de vapeo. El líquido de vapeo puede contener o no aromas y nicotina.
-									Los beneficios tras usar el cigarrillo electrónico es que son una alternativa al cigarro tradicional con un impacto mucho menor para la salud o como terapia para el reemplazo de la nicotina para dejar de fumar.
-									<img src="images/ecig.jpg"/></p>
+									Los beneficios tras usar el cigarrillo electrónico es que son una alternativa al cigarro tradicional con un impacto mucho menor para la salud o como terapia para el reemplazo de la nicotina para dejar de fumar.</p>
+									<img src="images/ecig.jpg" alt=""/>
 							</section>
 						</div>
 					<!-- /Content -->
@@ -147,37 +147,28 @@
 							</ul>
 						</section>
 					</div>
-					<div class="3u">
-						<section>
-						</section>				
+					<div class="3u">			
 					</div>
 					<div class="6u">
 						<section>
 							<header>
 								<h2>Formulario de Contacto</h2>
 							</header>
-							  <form action="http://www.gonzalonazareno.org/josedom/resultado.php" method="get">
-        
-	<label for="nombre">Nombre*:</label>
-	<input name="name" placeholder="Introduce tu hombre" class="required" /><br />
-        
-	<label for="apellidos">Apellidos*:</label>
-	<input name="surname" placeholder="Tus dos apellidos" class="required" /><br />
-            
-	<label for="telefono">Teléfono:</label>
-	<input name="phone" placeholder="¿Hablamos?" /><br />
-        
-	<label for="mail">E-mail*:</label>
-	<input name="mail" placeholder="Podré contestarte" class="required" /><br />
-            
-	<label id="modif01" for="comentario">Comentario:</label>
-	<textarea id="modif02" placeholder="Escribeme tu comentario aquí" name="comment"></textarea><br />
-                    
-	<div id="aster" > * | Campos obligatorios</div>
+  <form action="http://www2.gonzalonazareno.org/josedom/resultado.php" method="get">
+        <p>
+        Nombre*: <input type="text" name="name_control" placeholder="Introduce tu nombre" autofocus required />
+        <br />
+        Apellidos*: <input type="text" name="pass_control" placeholder="Introduce tus apellidos" required />
+        <br />
+        Correo Electrónico*: <input type="email" name="email_control" placeholder="Introduce tu correo electrónico" required />
+        <br />
+        Teléfono: <input type="tel" name="tel_control" />
+        <br />
+        Comentarios: <textarea name="comentario_control" rows="4" cols="50"></textarea>
+        <div id="aster" > * | Campos obligatorios</div>
                             
-	<input class="botonAcceder" type="submit" id="boton" value="Enviar" />
+    <input class="botonAcceder" type="submit" id="boton" value="Enviar" />
 </form>
-							</ul>
 						</section>
 					</div>
 				</div>

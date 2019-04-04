@@ -61,14 +61,13 @@
 								<header>
 									<h2>Mods Voltaje Variable / Electrónicos</h2>
 								</header>
-								</p>
 								<span class="byline">Algunos mods</span>
 								<h2>Box Edge 200w - DigiFlavor</h2>
-								<img src="images/digiflavor.jpg" width="200" height="200"/>
+								<img src="images/digiflavor.jpg" width="200" height="200" alt=""/>
 								<p>Precio:<strong>58.90€</strong></p>
 								<a href="https://www.sinhumo-sevilla.net/mods-voltaje-variable/7909-mag-grip-box-smok.html" class="button">Comprar</a>
 								<h2> Squonk Box Mod - Lost Vape</h2>
-								<img src="images/lostvape.jpg" width="200" height="200"/>
+								<img src="images/lostvape.jpg" width="200" height="200" alt=""/>
 								<p>Precio:<strong>164.90€</strong></p>
 								<a href="https://www.sinhumo-sevilla.net/mods-voltaje-variable/8037-drone-bf-dna-250c-squonk-box-mod-lost-vape-2400000010609.html" class="button">Comprar</a>
 							</section>
@@ -94,7 +93,7 @@
 					<!-- /Content -->
 						
 					<!-- Sidebar -->
-						<div id="sidebar" class="3u">
+						<div id="sidebar2" class="3u">
 							<section>
 								<header>
 									<h2>Mods Mecánicos</h2>
@@ -102,11 +101,11 @@
 								</header>
 								<span class="byline">Algunos mods</span>
 								<h2>Bonza RDA v1.5 - Vandy Vape</h2>
-								<img src="images/bonza.jpg" width="200" height="200"/>
+								<img src="images/bonza.jpg" width="200" height="200" alt=""/>
 								<p>Precio:<strong>209.00€</strong></p>
 								<a href="https://www.sinhumo-sevilla.net/mods-mecanicos/7500-kit-bonza-bonza-rda-v15-vandy-vape.html?search_query=bonza&results=3" class="button">Comprar</a>
 								<h2>Elite Mech Mod - VGOD</h2>
-								<img src="images/vgod.png" width="200" height="200"/>
+								<img src="images/vgod.png" width="200" height="200" alt=""/>
 								<p>Precio:<strong>133.00€</strong></p>
 								<a href="https://www.sinhumo-sevilla.net/mods-mecanicos/3216-elite-mech-mod-vgod-2400000009870.html?search_query=vgod&results=8" class="button">Comprar</a>
 							</section>
@@ -144,37 +143,28 @@
 							</ul>
 						</section>
 					</div>
-					<div class="3u">
-						<section>
-						</section>				
+					<div class="3u">				
 					</div>
 					<div class="6u">
 						<section>
 							<header>
 								<h2>Formulario de Contacto</h2>
 							</header>
-							  <form action="http://www.gonzalonazareno.org/josedom/resultado.php" method="get">
-        
-	<label for="nombre">Nombre*:</label>
-	<input name="name" placeholder="Introduce tu hombre" class="required" /><br />
-        
-	<label for="apellidos">Apellidos*:</label>
-	<input name="surname" placeholder="Tus dos apellidos" class="required" /><br />
-            
-	<label for="telefono">Teléfono:</label>
-	<input name="phone" placeholder="¿Hablamos?" /><br />
-        
-	<label for="mail">E-mail*:</label>
-	<input name="mail" placeholder="Podré contestarte" class="required" /><br />
-            
-	<label id="modif01" for="comentario">Comentario:</label>
-	<textarea id="modif02" placeholder="Escribeme tu comentario aquí" name="comment"></textarea><br />
-                    
-	<div id="aster" > * | Campos obligatorios</div>
+							    <form action="http://www2.gonzalonazareno.org/josedom/resultado.php" method="get">
+        <p>
+        Nombre*: <input type="text" name="name_control" placeholder="Introduce tu nombre" autofocus required />
+        <br />
+        Apellidos*: <input type="text" name="pass_control" placeholder="Introduce tus apellidos" required />
+        <br />
+        Correo Electrónico*: <input type="email" name="email_control" placeholder="Introduce tu correo electrónico" required />
+        <br />
+        Teléfono: <input type="tel" name="tel_control" />
+        <br />
+        Comentarios: <textarea name="comentario_control" rows="4" cols="50"></textarea>
+        <div id="aster" > * | Campos obligatorios</div>
                             
-	<input class="botonAcceder" type="submit" id="boton" value="Enviar" />
+    <input class="botonAcceder" type="submit" id="boton" value="Enviar" />
 </form>
-							</ul>
 						</section>
 					</div>
 				</div>
